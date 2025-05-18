@@ -16,7 +16,7 @@ public class QuoteService {
     RestTemplate restTemplate;
 
     private static final String API_URL = "https://api.api-ninjas.com/v1/quotes?X-Api-Key=YOUR_API_KEY";
-    private static final String API_KEY= "wBpjbmBmGnMJUKfr8KQbnA==6vnVGnZsBg67OMd6";
+    private static final String API_KEY= "YOUR_QUOTE_API_KEY";
 
 
     public ResponseEntity<String> getQuote() {
