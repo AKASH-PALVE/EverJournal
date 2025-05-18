@@ -22,7 +22,7 @@ public class GeminiService {
 
     // API SETUP
     private static final String api_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=GEMINI_API_KEY";
-    private static final String api_key = "AIzaSyDpzq9WAnq_I3W57HpjhkBN909ahrbR-9Y";
+    private static final String api_key = "YOUR_GEMINI_API_KEY";
 
 
     public ResponseEntity<String> getSentimentAnalysis(Integer id) {
